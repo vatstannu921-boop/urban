@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Scope One", serif;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.inner{
+    width: 80%;
+    margin: 0 auto;
+    /* background-color:yellow; */
+}
+
+
+
+/* First Section Starts Here */
+.main{
+    width: 100%;
+    height: 100vh;
+    color:#fff;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("../images2/header.jpg");
+}
+
+.top h2{
+    float: left;
+    padding-top: 10px;
+}
+
+.top h2 span{
+    color:#3498db;
+} 
+
+.top h3{
+    float:right;
+    padding-top: 20px;
+}
+
+
+/* Banner  */
+.main .banner{
+    width: 50%;
+    padding-top:20%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+button{
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin-top: 20px;
+    background-color: #3489db;
+}
+/* First Section Ends */
+
+
+
+
+/* second section starts here */
+.second-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.second-left{
+    width: 30%;
+    float: left;
+}
+
+.second-left img{
+    border-radius: 100%;
+}
+
+.second-right{
+    /* margin-top: 20px; */
+    width: 65%;
+    float: right;
+}
+
+.second-right p{
+    margin-top: 20px;
+}
+
+.second-right button{
+    margin-top: 20px;
+}
+/* second section ends here */
+
+
+
+
+/* third section starts here */
+.third-section{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #3489db;
+}
+
+.third-left{
+    width: 65%;
+    float: left;
+    /* background-color: blue  ; */
+}
+
+.third-left h2{
+    margin-bottom: 40px;
+}
+
+.third-left button{
+    background-color: white;
+    margin-top: 20px;
+    color:#3489db ;
+}
+
+.third-right{
+    float: right;
+}
+
+.third-right img{
+    border-radius: 100%;
+}
+/* third section ends here */
+
+
+
+
+/* fourth section  starts here */
+.four{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+
+.fourth-section {
+    /* margin-top: 40px; */
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.content{
+    width: 50%;
+    margin:0 auto;
+    margin-bottom: 40px;
+}
+
+.fourth-left{
+    width: 29%;
+    float: left;
+    /* background-color: blue; */
+
+}
+
+.fourth-section img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.fourth-left p{
+    margin-top: 10px;
+}
+
+.fourth-left button{
+    margin-top: 10px;
+}
+
+.fourth-middle{
+    width: 29%;
+    margin-left: 6%;
+    float: left;
+    /* background-color: blue; */
+}
+
+.fourth-middle p{
+    margin-top: 10px;
+}
+
+.fourth-middle button{
+    margin-top: 10px;
+}
+
+.fourth-right{
+    width: 29%;
+    float: right;
+    /* background-color: blue; */
+}
+
+.fourth-right p{
+    margin-top: 10px;
+}
+
+.fourth-right button{
+    margin-top: 10px;
+}
+/* fourth section  ends here */
+
+
+
+
+/* footer starts here */
+footer{
+    width: 100%;
+    text-align: center;
+    padding-top: 45px;
+    border-top:0.1px solid gray;
+}
+
+
+footer .fa{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: grey;
+    border: 0.1px solid grey;
+    border-radius: 100%;
+}
+
+footer span{
+    color: grey;
+}
+
+/* footer endss here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media AQuery  */
+
+@media only screen and (max-width:992px)
+{
+    /* Second Section STrats here */
+    .second-left, .second-right{
+        text-align: center;
+        font-size: 25px;
+        width: 100%;
+      
+        /* background-color: red; */
+    }
+
+
+     .second-left img{
+        width: 90%;
+          border-radius:60px 0px 60px 00px;
+        margin-bottom: 20px;
+
+        /* Box-shadow: right to left top to bottom blur color  */
+        box-shadow: -5px -5px 2px #000;
+     }
+
+
+
+
+     /* third section starts here */
+
+     .third-left, .third-right{
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+     }
+
+
+     .third-right img{
+        width: 90%;
+        border-radius: 0px 60px 0px 60px;
+        box-shadow: -5px -5px 5px #000;
+     }
+
+
+     .content, .fourth-left, .fourth-middle, .fourth-right{
+        width: 100%;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 20px;
+     }
+
+     .fourth-left img{
+        width: 90%;
+        border-radius: 0px 60px 0px 60px;
+
+     }
+     .fourth-middle img{
+        width: 90%;
+        border-radius: 0px 60px 0px 60px;
+
+     }
+     .fourth-right img{
+        width: 90%;
+        border-radius: 60px 0px 60px 0px;
+
+     }
+
+     
+
+
+
+
+}
